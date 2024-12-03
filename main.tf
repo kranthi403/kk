@@ -10,6 +10,6 @@ terraform {
   }
 }
 resource "aws_s3_bucket" "example" {
-bucket = "jenkins-test-bucket-jenkins-state-kranthi"
+bucket = "jenkins-test-bucket-kranthi"
 acl    = "private"
 }
